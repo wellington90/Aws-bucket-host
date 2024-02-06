@@ -1,6 +1,6 @@
 # Aws-bucket-host
 
-    ##Passo 1: Criar um Bucket no Amazon S3
+   ## Passo 1: Criar um Bucket no Amazon S3
   
         1° Faça login no Console de Gerenciamento da AWS em https://aws.amazon.com/.
         2° Vá para o serviço Amazon S3.
@@ -15,5 +15,5 @@
 
         1° selecionamos AWS region como us-east-1 N.Virginia
 
-        
+
 
