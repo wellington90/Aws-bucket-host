@@ -16,7 +16,7 @@
 <ol start="7">
     <li>Selecionamos AWS region como us-east-1 N.Virginia.</li>
     <li>Colocamos o nome único para Bucket.</li>
-<div>
+<br><br><div>
     <img src="img/02.drawio.png" alt="Descrição da imagem" height="400" width="800">
 </div>
     <li>Acl</li>
