@@ -1,4 +1,4 @@
-# Aws-bucket-host
+## Aws-bucket-hosting-estatico
 
    ## Passo 1: Criar um Bucket no Amazon S3
   
