@@ -10,7 +10,7 @@
     </ol>
 
 <div>
-    <img src="img/01.drawio.png" alt="Descrição da imagem" height="200" width="800">
+    <img src="img/01.drawio.png" alt="Descrição da imagem" height="400" width="800">
 </div>
 
 <ol start="7">
