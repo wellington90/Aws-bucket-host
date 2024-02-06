@@ -9,12 +9,11 @@
         5° Selecione a região AWS desejada.
         6° Clique em "Criar bucket".
 
-        <div>
-            <img src="img/01.drawio.png" height="200" width="800">
-        </div>
+      ![.](img/01.drawio.png)
 
-        1° selecionamos AWS region como us-east-1 N.Virginia
-        .
+
+        1° Selecionamos AWS region como us-east-1 N.Virginia.
+        2° Colocamos o nome unico para Bucket
 
 
 
