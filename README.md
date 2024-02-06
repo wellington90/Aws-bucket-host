@@ -10,10 +10,11 @@
         6° Clique em "Criar bucket".
 
 
-
-        img/01.drawio.png
+        <img src="img/01.drawio.png" height="200" width="800">
+        
 
         1° selecionamos AWS region como us-east-1 N.Virginia
+        .
 
 
 
