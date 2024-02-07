@@ -17,7 +17,7 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
 
 
-![App Screenshot](/img/01.drawio.png/468x300?text=App+Screenshot+Here)
+![App Screenshot](/img/01.drawio.png/468x300)
 
 
 #
