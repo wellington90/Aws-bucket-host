@@ -7,30 +7,32 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
 
 ## Criar um bucket no Amazon S3 para Hospedagem de site estático:
-       1° Faça login no Console de Gerenciamento da AWS em [Link para a AWS](https://https://aws.amazon.com/)
-       2° Vá para o serviço Amazon S3.
-       3° Clique em "Criar bucket".
-       4° Escolha um nome único para o seu bucket (por exemplo, "meu-portfolio").
-       5° Selecione a região AWS desejada.
-       6° Clique em "Criar bucket".
-       
+1° Faça login no Console de Gerenciamento da AWS em [Link para a AWS](https://https://aws.amazon.com/)
+2° Vá para o serviço Amazon S3.
+3° Clique em "Criar bucket".
+4° Escolha um nome único para o seu bucket (por exemplo, "meu-portfolio").
+5° Selecione a região AWS desejada.
+6° Clique em "Criar bucket".
 
 
 
-![App Screenshot](./img/01.drawio.png/468x300?text=App+Screenshot+Here)
+
+![App Screenshot](img/01.drawio.png/468x300?text=App+Screenshot+Here)
 
 
 #
-        7° Selecionamos AWS region como us-east-1 N.Virginia.
-        Quando as ACLs (Listas de Controle de Acesso) estão habilitadas, os objetos neste bucket podem ser de propriedade de outras contas da AWS. O acesso a este bucket e seus objetos pode ser especificado usando ACLs. No entanto, é recomendável desabilitar as ACLs, a menos que você precise controlar o acesso para cada objeto individualmente ou permitir que o escritor do objeto seja o proprietário dos dados que eles carregam. Utilizar uma política de bucket em vez de ACLs para compartilhar dados com usuários fora da sua conta simplifica a gestão de permissões e auditorias. 
-        8° Selecionamos opção Object writer do objeto continua sendo o proprietário do objeto. É importante reconhecer que as configurações de Bloqueio de Acesso Público para este bucket podem resultar em tornar este bucket e os objetos dentro dele públicos.
-       
+7° Selecionamos AWS region como us-east-1 N.Virginia.
+Quando as ACLs (Listas de Controle de Acesso) estão habilitadas, os objetos neste bucket podem ser de propriedade de outras contas da AWS. O acesso a este bucket e seus objetos pode ser especificado usando ACLs. No entanto, é recomendável desabilitar as ACLs, a menos que você precise controlar o acesso para cada objeto individualmente ou permitir que o escritor do objeto seja o proprietário dos dados que eles carregam. Utilizar uma política de bucket em vez de ACLs para compartilhar dados com usuários fora da sua conta simplifica a gestão de permissões e auditorias. 
+8° Selecionamos opção Object writer do objeto continua sendo o proprietário do objeto. É importante reconhecer que as configurações de Bloqueio de Acesso Público para este bucket podem resultar em tornar este bucket e os objetos dentro dele públicos.
+
 
 ![App Screenshot](./img/02.drawio.png/468x300?text=App+Screenshot+Here)
 
 
 #
-        9° Desabilitamos as configurações de Bloqueio de Acesso Público para este bucket, reconhecemos que as configurações atuais podem resultar na possibilidade deste bucket e dos objetos dentro dele se tornarem públicos.
+9° Desabilitamos as configurações de Bloqueio de Acesso Público para este bucket, reconhecemos que as configurações atuais podem resultar na possibilidade deste bucket e dos objetos dentro dele se tornarem públicos.
 
-![App Screenshot](./img/03.drawio.png/468x300?text=App+Screenshot+Here)
+    ![App Screenshot](./img/03.drawio.png/468x300?text=App+Screenshot+Here)
+
+.
 
