@@ -17,7 +17,7 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
 
 
-![App Screenshot](/img/01.drawio.png/468x300?text=App+Screenshot+Here)
+![App Screenshot](./img/01.drawio.png/468x300?text=App+Screenshot+Here)
 
 
 #
@@ -26,11 +26,11 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
         8° Selecionamos opção Object writer do objeto continua sendo o proprietário do objeto. É importante reconhecer que as configurações de Bloqueio de Acesso Público para este bucket podem resultar em tornar este bucket e os objetos dentro dele públicos.
        
 
-![App Screenshot](/img/02.drawio.png/468x300?text=App+Screenshot+Here)
+![App Screenshot](./img/02.drawio.png/468x300?text=App+Screenshot+Here)
 
 
 #
         9° Desabilitamos as configurações de Bloqueio de Acesso Público para este bucket, reconhecemos que as configurações atuais podem resultar na possibilidade deste bucket e dos objetos dentro dele se tornarem públicos.
 
-![App Screenshot](/img/03.drawio.png/468x300?text=App+Screenshot+Here)
+![App Screenshot](./img/03.drawio.png/468x300?text=App+Screenshot+Here)
 
