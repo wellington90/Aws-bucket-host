@@ -76,3 +76,8 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
     ]
 }
 ```
+
+        17° Agora faremos upload dos arquivos 
+
+![App Screenshot](/img/11.drawio.png)
+![App Screenshot](/img/12.drawio.png)
