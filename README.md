@@ -7,7 +7,7 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
 
 ## Criar um bucket no Amazon S3 para Hospedagem de site estático:
-       1° Faça login no Console de Gerenciamento da AWS em ![Link para a AWS](https://https://aws.amazon.com/)
+       1° Faça login no Console de Gerenciamento da AWS em (https://https://aws.amazon.com/)
        2° Vá para o serviço Amazon S3.
        3° Clique em "Criar bucket".
        4° Escolha um nome único para o seu bucket (por exemplo, "meu-portfolio").
@@ -34,3 +34,14 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
 ![App Screenshot](/img/03.drawio.png)
 
+        10° Buccket criado
+
+![App Screenshot](/img/04.drawio.png)
+
+        11° Selecionamos properties 
+
+![App Screenshot](/img/05.drawio.png)
+
+        12° Clicamos em edit 
+
+![App Screenshot](/img/06.drawio.png)
