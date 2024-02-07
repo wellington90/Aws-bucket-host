@@ -45,3 +45,18 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
         12° Clicamos em edit 
 
 ![App Screenshot](/img/06.drawio.png)
+
+        13° selecionamos Static website hosting, e direcionamos o Index document para Specify the home or default page of the website.
+
+![App Screenshot](/img/07.drawio.png)
+
+        14° em Permissions 
+
+![App Screenshot](/img/08.drawio.png)
+
+        15° Vamos editar Bucket policy 
+
+![App Screenshot](/img/09.drawio.png)
+
+        16° Com a policy no bucket
+
