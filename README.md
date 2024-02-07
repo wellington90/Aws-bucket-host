@@ -60,3 +60,19 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
         16° Com a policy no bucket
 
+![App Screenshot](/img/10.drawio.png)
+
+```bash
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::wellington-santos-2024/*"
+        }
+    ]
+}
+```
