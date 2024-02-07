@@ -98,7 +98,7 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
     20° Site online.
 
-[![site](http://wellington-santos-2024.s3-website-us-east-1.amazonaws.com/)]
+[![site estático com S3]](http://wellington-santos-2024.s3-website-us-east-1.amazonaws.com/)
     
 
 ![App Screenshot](/img/16.drawio.png)
