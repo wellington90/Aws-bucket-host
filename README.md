@@ -17,14 +17,17 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
 ![App Screenshot](/img/001.drawio.png)
 
+    7° Selecionamos zona de disponibilidade AWS region como us-east-1 N.Virginia.
+       eo um nome unico para bucket    
+
 ![App Screenshot](/img/01.drawio.png)
 
 
 #
-    7° Selecionamos AWS region como us-east-1 N.Virginia.
-    Quando as ACLs (Listas de Controle de Acesso) estão habilitadas, os objetos neste bucket podem ser de propriedade de outras contas da AWS. O acesso a este bucket e seus objetos pode ser especificado usando ACLs. No entanto, é recomendável desabilitar as ACLs, a menos que você precise controlar o acesso para cada objeto individualmente ou permitir que o escritor do objeto seja o proprietário dos dados que eles carregam. Utilizar uma política de bucket em vez de ACLs para compartilhar dados com usuários fora da sua conta simplifica a gestão de permissões e auditorias. 
     
-    8° Selecionamos opção Object writer do objeto continua sendo o proprietário do objeto. É importante reconhecer que as configurações de Bloqueio de Acesso Público para este bucket podem resultar em tornar este bucket e os objetos dentro dele públicos.
+    8° Quando as ACLs (Listas de Controle de Acesso) estão habilitadas, os objetos neste bucket podem ser de propriedade de outras contas da AWS. O acesso a este bucket e seus objetos pode ser especificado usando ACLs. No entanto, é recomendável desabilitar as ACLs, a menos que você precise controlar o acesso para cada objeto individualmente ou permitir que o escritor do objeto seja o proprietário dos dados que eles carregam. Utilizar uma política de bucket em vez de ACLs para compartilhar dados com usuários fora da sua conta simplifica a gestão de permissões e auditorias. 
+    
+    E Selecionamos opção Object writer do objeto continua sendo o proprietário do objeto. É importante reconhecer que as configurações de Bloqueio de Acesso Público para este bucket podem resultar em tornar este bucket e os objetos dentro dele públicos.
     
 
 ![App Screenshot](/img/02.drawio.png)
@@ -35,31 +38,31 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 
 ![App Screenshot](/img/03.drawio.png)
 
-    10° Buccket criado
+    10° Buccket criado. 
 
 ![App Screenshot](/img/04.drawio.png)
 
-    11° Selecionamos properties 
+    11° Selecionamos properties. 
 
 ![App Screenshot](/img/05.drawio.png)
 
-    12° Clicamos em edit 
-
+    12° Clicamos em edit. 
+    
 ![App Screenshot](/img/06.drawio.png)
 
-    13° selecionamos Static website hosting, e direcionamos o Index document para Specify the home or default page of the website.
+    13° Selecionamos Static website hosting, e direcionamos o Index document para Specify the home or default page of the website.
 
 ![App Screenshot](/img/07.drawio.png)
 
-    14° em Permissions 
+    14° Em Permissions.
 
 ![App Screenshot](/img/08.drawio.png)
 
-    15° Vamos editar Bucket policy 
+    15° Vamos editar Bucket policy. 
 
 ![App Screenshot](/img/09.drawio.png)
 
-    16° Com a policy no bucket
+    16° Com a policy no bucket em formato json.
 
 ![App Screenshot](/img/10.drawio.png)
 
@@ -77,21 +80,25 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
     ]
 }
 ```
-<br>
 
-    17° Agora faremos upload dos arquivos 
+
+    17° Agora faremos upload dos arquivos. 
 
 ![App Screenshot](/img/11.drawio.png)
 ![App Screenshot](/img/12.drawio.png)
 
-    18° Selecionando o objeto index.html, em Actions selecionamod Make puclic using Acl
+    18° Selecionando o objeto index.html, em Actions selecionamos Make puclic using Acl.
+        Para tornar um recurso público usando ACL (Lista de Controle de Acesso), você precisa configurar permissões de acesso que permitam que qualquer pessoa acesse o recurso. Isso pode ser feito atribuindo permissões de leitura e/ou escrita para "AllUsers" ou "AuthenticatedUsers", dependendo do serviço da AWS que você está utilizando.
 
 ![App Screenshot](/img/14.drawio.png)
 
-    19° Clickmos em Make public
+    19° Clickmos em Make public.
 
 ![App Screenshot](/img/15.drawio.png)
 
-    20° Site online
+    20° Site online.
+
+    [![site](http://wellington-santos-2024.s3-website-us-east-1.amazonaws.com/)]
+    
 
 ![App Screenshot](/img/16.drawio.png)
