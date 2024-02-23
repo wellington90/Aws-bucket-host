@@ -87,15 +87,6 @@ Para hospedar um site estático na AWS, geralmente utiliza-se o Amazon S3 (Simpl
 ![App Screenshot](/img/11.drawio.png)
 ![App Screenshot](/img/12.drawio.png)
 
-    18° Selecionando o objeto index.html, em Actions selecionamos Make puclic using Acl.
-        Para tornar um recurso público usando ACL (Lista de Controle de Acesso), você precisa configurar permissões de acesso que permitam que qualquer pessoa acesse o recurso. Isso pode ser feito atribuindo permissões de leitura e/ou escrita para "AllUsers" ou "AuthenticatedUsers", dependendo do serviço da AWS que você está utilizando.
-
-![App Screenshot](/img/14.drawio.png)
-
-    19° Clickmos em Make public.
-
-![App Screenshot](/img/15.drawio.png)
-
     20° Site online.
 
 [![site estático com S3]](http://wellington-santos-2024.s3-website-us-east-1.amazonaws.com/)
